@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+<h1>Seja bem vindo à página de cursos do IFRN</h1>
+<p>Selecione um dos três cursos abaixo que deseja obter informações</p>
+<h1><a href="{% url 'pagina_alimentos' %}" style="color: green;">Alimentos</a></h1>
+<h1><a href="{% url 'pagina_apicultura' %}" style="color: rgb(176, 196, 0);">Apicultura</a></h1>
+<h1><a href="{% url 'pagina_informatica' %}" style="color: blue;">Informática</a></h1>
+{% endblock %}
+
